@@ -717,7 +717,11 @@ section {
   background-size: cover;
   padding: 120px 0;
 }
-
+.cta2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/image.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
 .cta h3 {
   color: #fff;
   font-size: 28px;
@@ -831,6 +835,13 @@ section {
   position: relative;
 }
 
+.counts2 {
+  background: url("../img/image.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  position: relative;
+  
+}
 .counts::before {
   content: "";
   position: absolute;
